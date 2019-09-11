@@ -1,0 +1,86 @@
+h1{
+	text-align: center;
+	font-size: 45px;
+	font-style: italic;
+	margin: 10px;
+}
+
+body {
+    background-color: #E5E4E2;
+	color: #2B3856;
+	margin: 10px;
+	font-family: Georgia;
+}
+
+a {
+	color: white;
+	font-size: 23px;
+}
+
+a:hover{
+	color: #E0FFFF;
+}
+
+#navigacija {
+    width: 60%;
+	margin-bottom: 10px;
+}
+
+#navigacija ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #95B9C7;
+}
+
+#navigacija li {
+    float: left;
+}
+
+#navigacija li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+#navigacija li a:hover{
+	color: #E0FFFF;
+}
+
+#podaci{
+    margin-top: 50px;
+    float: left;
+    width: 100%;
+    margin-right: 2%;
+}
+
+tr, td {
+    border-right: 1px solid white;
+}
+
+table {
+    margin-top: 30px;
+    border-collapse: collapse;
+    width: 100%;
+    border: 1px solid black;
+}
+
+th, td {
+    text-align: left;
+    padding: 8px;
+}
+
+thead {
+    background-color: #95B9C7;
+}
+
+tr:nth-child(even){background-color: #C2DFFF}
+
+form {
+    width: 60%;
+    margin-left: 15%;
+}
+
